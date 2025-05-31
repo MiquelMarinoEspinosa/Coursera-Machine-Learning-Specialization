@@ -57,3 +57,18 @@ In the last course of the specialization, you'll be able to:
 2. [Supervised Machine Learning: Regression and Classification](https://github.com/vhoang1206/Coursera-Machine-Learning-Specialization/blob/main/Certificates/Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification%20.pdf)
 3. [Advanced Learning Algorithms](https://github.com/vhoang1206/Coursera-Machine-Learning-Specialization/blob/main/Certificates/Advanced%20Learning%20Algorithms.pdf)
 4. [Unsupervised Learning, Recommenders, Reinforcement Learning](https://github.com/vhoang1206/Coursera-Machine-Learning-Specialization/blob/main/Certificates/Unsupervised%20Learning%2C%20Recommenders%2C%20Reinforcement%20Learning.pdf)
+
+### Development environment
+Based on
+* [Data science with JupyterLab](https://docs.docker.com/guides/jupyter/)
+
+Access to the jupyter via http://localhost:8889/lab?token=my-token
+
+Related [jupyter docker hub image](https://hub.docker.com/repository/docker/miquelmarinoespinosa/jupyter-python-machine-learning/general)
+
+Execute the following command to initiate the development environment
+
+```
+docker compose up
+```
+
